@@ -4,8 +4,10 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import NavBar from './NavBar'
 import VendingMachine from './VendingMachine';
 import Soda from './Soda'
-import Sardine from './Sardine'
-import Chip from './Chip'
+import Sardines from './Sardines'
+import Chips from './Chips'
+
+/** Main application: depending on path, show different components. */
 
 function App() {
   return (
@@ -15,8 +17,8 @@ function App() {
         <Routes>
           <Route path="/" element={<VendingMachine/>} />
           <Route path="/soda" element={<Soda/>} />
-          <Route path="/chip" element={<Chip/>} />
-          <Route path="/sardine" element={<Sardine/>} />
+          <Route path="/chips" element={<Chips/>} />
+          <Route path="/sardines" element={<Sardines/>} />
         </Routes>
       </BrowserRouter>
 
