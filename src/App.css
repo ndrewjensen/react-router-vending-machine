@@ -1,5 +1,17 @@
-.App {
+/* .App {
   text-align: center;
+} */
+
+* {
+  margin: 5px;
+}
+
+.NavBar a {
+  color: blue;
+}
+.NavBar a.active {
+  color: white;
+  background-color: black;
 }
 
 .App-logo {
